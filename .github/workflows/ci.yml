@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate Xcode project
+        run: xcodegen generate
+      - name: Test App Store configuration
+        run: >-
+          xcodebuild test
+          -project ApexUninstaller.xcodeproj
+          -scheme ApexUninstaller
+          -destination 'platform=macOS'
+          CODE_SIGNING_ALLOWED=NO
+      - name: Test Direct configuration
+        run: >-
+          xcodebuild test
+          -project ApexUninstaller.xcodeproj
+          -scheme ApexUninstaller-Direct
+          -destination 'platform=macOS'
+          CODE_SIGNING_ALLOWED=NO

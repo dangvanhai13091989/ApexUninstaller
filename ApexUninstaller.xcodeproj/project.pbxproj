@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026A0B19A2EBF878E68EE0E2 /* HomeDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E42C30164BD055F1499BE1 /* HomeDirectory.swift */; };
+		0273DC1B632FA8B6029158EE /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2022E169B5AA88B5E420EC /* AppModel.swift */; };
+		04094FBF1FF37D1E552FFF2A /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB2DBFF69D3A828DD9F9206 /* BookmarkManager.swift */; };
+		04EA8B68D45DC53EAD46617F /* LocalizationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A071B80459A4C1DE7CC8AA6 /* LocalizationManagerTests.swift */; };
+		064AA989AD4DB00018BE99EA /* DuplicateFinderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47CE8D023D4A9110FC4BE9 /* DuplicateFinderService.swift */; };
+		0708B59A424F76E774A15A5B /* AppModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4F4EE93A60AAD69FDC63E /* AppModelTests.swift */; };
+		0CC6F728E6D244C83FA1C912 /* AppRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B673AF592C7A8A3240C2541 /* AppRowView.swift */; };
+		0E9F8C2893FFA14F7858D464 /* FileSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0DF4DD4A19A12D9A5A6567 /* FileSize+Extensions.swift */; };
+		13B75A781E14146F6B1BB945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F32BB0CF9EAF245305CC39D /* Assets.xcassets */; };
+		1FC8DB01E7690CE18E79B6FE /* LeftoverFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A91433E1AC675B45393D9F /* LeftoverFile.swift */; };
+		21FAD8C1DD978CEC3A4F8536 /* GlassBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265154546E386ADEB7A2454A /* GlassBackground.swift */; };
+		27B4E0B305B07AC1D03397F8 /* SystemJunkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79E66B2924384764EC7198 /* SystemJunkView.swift */; };
+		2AD24ED9C6A9687266D296BC /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E863AD9C9C79547776C9E /* AppViewModel.swift */; };
+		325B65F0382006321B7BA3E7 /* DistributionChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E1150E5B3BE7934E15CE7 /* DistributionChannel.swift */; };
+		392DF9B0CC45D52930463E2E /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05564808428C3BE4C3A63C1B /* LocalizationManager.swift */; };
+		3CBCE7B26E53939EFDA89C97 /* LeftoverCategoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5423E036DAF863410A5195 /* LeftoverCategoryTests.swift */; };
+		3E095D8CB6DE98F3014D791D /* AppUsageStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFFF269BD2FC401F07E6EF5 /* AppUsageStats.swift */; };
+		3F82772998D54B09FBAD4441 /* ScanProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE23E0A5EB908C95D16F617E /* ScanProgressView.swift */; };
+		4340683B0DDDEF8793EE462D /* DiskSpaceStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155DBCEA543E4E3CEA28AAE /* DiskSpaceStats.swift */; };
+		4AAB03C3A445248F0A4EF305 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C9E0A739F48653D11063 /* DashboardView.swift */; };
+		4F08A68AFE5FC18D90BF19DC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DCEFA98F4AE32BDF556A40 /* SettingsView.swift */; };
+		521CEF53DC5FC96862F8DBB8 /* ApexUninstallerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B009371EBF58666C1E3725 /* ApexUninstallerApp.swift */; };
+		54E411F762CD6764C0AF0C6D /* WindowMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E0B754D092641C3E121F8C /* WindowMenuTests.swift */; };
+		5D3750BB99ACA0C7CD59C45B /* FileSizeExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4082DAA4FA6AB895A950B75 /* FileSizeExtensionTests.swift */; };
+		63103F82016995EC1FCF7A49 /* SmartNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33F324063112EC8E416B29 /* SmartNotificationService.swift */; };
+		6ABE0928EF0B6DD0F8659457 /* ScheduledScanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B2E699455E03AEB442AEA8 /* ScheduledScanManager.swift */; };
+		6D164241A06DE44F34016114 /* NSImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E75950E10A74812942F46B1 /* NSImage+Extensions.swift */; };
+		739951046F360D56B9927203 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78711214DA1F356AE9F8CF1D /* SidebarView.swift */; };
+		7A4D29FC7C0A63690D54DB22 /* UsageAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB2C0D407ACA8F32F296CA /* UsageAnalysisView.swift */; };
+		8F07EBAE8FC7548023536091 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DFE7D3C957A4777085E62 /* DetailView.swift */; };
+		947CA0CCEB45452F48B669A0 /* DuplicateFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BBD85202A600083F47B2BB /* DuplicateFinderView.swift */; };
+		996762E2C081D136C00BA514 /* LeftoverRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E324E95163F40AA6B843D5 /* LeftoverRowView.swift */; };
+		9AB5E2800157FDDF7479167A /* DuplicateGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C0DAD5D64C1A15FB391BB /* DuplicateGroup.swift */; };
+		9DC55CC6B961113B4CA96554 /* RemovalSafetyPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D78AD831F67EB2A19BE01B7 /* RemovalSafetyPolicyTests.swift */; };
+		A1CEBC922A393D09F6B9B490 /* UninstallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091D54A1B55A9DEF0FE4388D /* UninstallService.swift */; };
+		AF5642950273BC1D514589B7 /* AppSortOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEBC385424EFC6FEC0B6588 /* AppSortOrderTests.swift */; };
+		B065CF680986E7F4F165BC95 /* MenuBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26383F3026152024402766E5 /* MenuBarManager.swift */; };
+		B0AB38BC915D10D3544A9A72 /* RemovalSafetyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBE3D0107A1E33C3A3CD2A /* RemovalSafetyPolicy.swift */; };
+		B16BEA9130B877F1E2998E4A /* LeftoverConfidenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684A1CD2D01FD81B5F3FE404 /* LeftoverConfidenceTests.swift */; };
+		B50FA3D6315100296881444E /* SystemJunkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E4DB3F0DB10A8EB3762F10 /* SystemJunkItem.swift */; };
+		B918B4A62C9E70D2371B6066 /* OnboardingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF5CBBED2924CE0A01AD302 /* OnboardingSheet.swift */; };
+		B9CC5624792FDDFBD7A157FA /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37F5F4B5F3ECC143B8BDEE /* EmptyStateView.swift */; };
+		BF8F8DF66FB90053FAD30EA3 /* ScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F033F9D24089731ACE8E8A /* ScannerService.swift */; };
+		E0DBAF4D1F242B1C0A2CF917 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3447877B8FD443C9729738 /* MainView.swift */; };
+		F9B3C7B9EC3C18DDBB1EE5CD /* CleanupHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF96449BB63B4609F6CA56C /* CleanupHistoryTests.swift */; };
+		F9CEF4F7CBC576AF020B722A /* SystemJunkScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E4DE5E90EFF0B2C42B0021 /* SystemJunkScanner.swift */; };
+		FB9C7EA35F166458D3EC1088 /* AppUsageAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE07466706A7C808EC323B /* AppUsageAnalyzer.swift */; };
+		FD366E702BAB9A4D00940750 /* LaunchAtLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E541C46CB31F7F2063085D7 /* LaunchAtLoginManager.swift */; };
+		FE26B6FFE4D3A4C4030F1B43 /* UninstallResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE63A3E9952FE04CD838F02 /* UninstallResultTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D75C232A4CE87834997F0AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E0F157A85E2EAF5F1E23BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B7A32A44DF2134834EF0042;
+			remoteInfo = ApexUninstaller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0155DBCEA543E4E3CEA28AAE /* DiskSpaceStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskSpaceStats.swift; sourceTree = "<group>"; };
+		02B009371EBF58666C1E3725 /* ApexUninstallerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexUninstallerApp.swift; sourceTree = "<group>"; };
+		05564808428C3BE4C3A63C1B /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		08E4DB3F0DB10A8EB3762F10 /* SystemJunkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemJunkItem.swift; sourceTree = "<group>"; };
+		091D54A1B55A9DEF0FE4388D /* UninstallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UninstallService.swift; sourceTree = "<group>"; };
+		0BE63A3E9952FE04CD838F02 /* UninstallResultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UninstallResultTests.swift; sourceTree = "<group>"; };
+		0E15DD5BBA24A118D5F93B65 /* ApexUninstaller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApexUninstaller.entitlements; sourceTree = "<group>"; };
+		10AB2C0D407ACA8F32F296CA /* UsageAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageAnalysisView.swift; sourceTree = "<group>"; };
+		12B4F4EE93A60AAD69FDC63E /* AppModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModelTests.swift; sourceTree = "<group>"; };
+		1F37F5F4B5F3ECC143B8BDEE /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		21E0C9E0A739F48653D11063 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		26383F3026152024402766E5 /* MenuBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarManager.swift; sourceTree = "<group>"; };
+		265154546E386ADEB7A2454A /* GlassBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackground.swift; sourceTree = "<group>"; };
+		2A071B80459A4C1DE7CC8AA6 /* LocalizationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManagerTests.swift; sourceTree = "<group>"; };
+		2CBE853D130B81DB07669777 /* ApexUninstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApexUninstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BBD85202A600083F47B2BB /* DuplicateFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateFinderView.swift; sourceTree = "<group>"; };
+		37AE07466706A7C808EC323B /* AppUsageAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsageAnalyzer.swift; sourceTree = "<group>"; };
+		39FBE3D0107A1E33C3A3CD2A /* RemovalSafetyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemovalSafetyPolicy.swift; sourceTree = "<group>"; };
+		3D78AD831F67EB2A19BE01B7 /* RemovalSafetyPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemovalSafetyPolicyTests.swift; sourceTree = "<group>"; };
+		49A91433E1AC675B45393D9F /* LeftoverFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftoverFile.swift; sourceTree = "<group>"; };
+		4B47CE8D023D4A9110FC4BE9 /* DuplicateFinderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateFinderService.swift; sourceTree = "<group>"; };
+		50DCEFA98F4AE32BDF556A40 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		58AF2EBBC2526B7825B07CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5DF5CBBED2924CE0A01AD302 /* OnboardingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSheet.swift; sourceTree = "<group>"; };
+		5E75950E10A74812942F46B1 /* NSImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Extensions.swift"; sourceTree = "<group>"; };
+		61F033F9D24089731ACE8E8A /* ScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerService.swift; sourceTree = "<group>"; };
+		684A1CD2D01FD81B5F3FE404 /* LeftoverConfidenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftoverConfidenceTests.swift; sourceTree = "<group>"; };
+		6B0DF4DD4A19A12D9A5A6567 /* FileSize+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileSize+Extensions.swift"; sourceTree = "<group>"; };
+		6B673AF592C7A8A3240C2541 /* AppRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRowView.swift; sourceTree = "<group>"; };
+		6F32BB0CF9EAF245305CC39D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78711214DA1F356AE9F8CF1D /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		7D36B66E6ABE997606BC9324 /* ApexUninstallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApexUninstallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E541C46CB31F7F2063085D7 /* LaunchAtLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginManager.swift; sourceTree = "<group>"; };
+		8A3447877B8FD443C9729738 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		927DFE7D3C957A4777085E62 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A722D1EEDA64137F82A95448 /* ApexUninstaller.direct.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApexUninstaller.direct.entitlements; sourceTree = "<group>"; };
+		A77E863AD9C9C79547776C9E /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		B3E42C30164BD055F1499BE1 /* HomeDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDirectory.swift; sourceTree = "<group>"; };
+		BA5423E036DAF863410A5195 /* LeftoverCategoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftoverCategoryTests.swift; sourceTree = "<group>"; };
+		CAEBC385424EFC6FEC0B6588 /* AppSortOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSortOrderTests.swift; sourceTree = "<group>"; };
+		CCF96449BB63B4609F6CA56C /* CleanupHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupHistoryTests.swift; sourceTree = "<group>"; };
+		CD2022E169B5AA88B5E420EC /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		D2A4D8ED2834BA6F57E83C0A /* ApexUninstaller.debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApexUninstaller.debug.entitlements; sourceTree = "<group>"; };
+		D4082DAA4FA6AB895A950B75 /* FileSizeExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSizeExtensionTests.swift; sourceTree = "<group>"; };
+		D9E4DE5E90EFF0B2C42B0021 /* SystemJunkScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemJunkScanner.swift; sourceTree = "<group>"; };
+		DD33F324063112EC8E416B29 /* SmartNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartNotificationService.swift; sourceTree = "<group>"; };
+		E4E0B754D092641C3E121F8C /* WindowMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowMenuTests.swift; sourceTree = "<group>"; };
+		E67E1150E5B3BE7934E15CE7 /* DistributionChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionChannel.swift; sourceTree = "<group>"; };
+		E7E324E95163F40AA6B843D5 /* LeftoverRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftoverRowView.swift; sourceTree = "<group>"; };
+		EA79E66B2924384764EC7198 /* SystemJunkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemJunkView.swift; sourceTree = "<group>"; };
+		ECFFF269BD2FC401F07E6EF5 /* AppUsageStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsageStats.swift; sourceTree = "<group>"; };
+		F34C0DAD5D64C1A15FB391BB /* DuplicateGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateGroup.swift; sourceTree = "<group>"; };
+		F7B2E699455E03AEB442AEA8 /* ScheduledScanManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledScanManager.swift; sourceTree = "<group>"; };
+		FCB2DBFF69D3A828DD9F9206 /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
+		FE23E0A5EB908C95D16F617E /* ScanProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03FD6761C39737283C130904 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				927DFE7D3C957A4777085E62 /* DetailView.swift */,
+				1F37F5F4B5F3ECC143B8BDEE /* EmptyStateView.swift */,
+				8A3447877B8FD443C9729738 /* MainView.swift */,
+				5DF5CBBED2924CE0A01AD302 /* OnboardingSheet.swift */,
+				78711214DA1F356AE9F8CF1D /* SidebarView.swift */,
+				E122DFDBB619DC2F63D1A2EC /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31937CFADB9550537D81AC04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD2022E169B5AA88B5E420EC /* AppModel.swift */,
+				ECFFF269BD2FC401F07E6EF5 /* AppUsageStats.swift */,
+				0155DBCEA543E4E3CEA28AAE /* DiskSpaceStats.swift */,
+				F34C0DAD5D64C1A15FB391BB /* DuplicateGroup.swift */,
+				49A91433E1AC675B45393D9F /* LeftoverFile.swift */,
+				08E4DB3F0DB10A8EB3762F10 /* SystemJunkItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67BF366FC8144266A02B464F = {
+			isa = PBXGroup;
+			children = (
+				77C0A55901854A2709C9FABD /* ApexUninstaller */,
+				7E21B60865DCEA91BD3D5BEE /* ApexUninstallerTests */,
+				F8F2CB94D17A40C742250CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77C0A55901854A2709C9FABD /* ApexUninstaller */ = {
+			isa = PBXGroup;
+			children = (
+				D2A4D8ED2834BA6F57E83C0A /* ApexUninstaller.debug.entitlements */,
+				A722D1EEDA64137F82A95448 /* ApexUninstaller.direct.entitlements */,
+				0E15DD5BBA24A118D5F93B65 /* ApexUninstaller.entitlements */,
+				02B009371EBF58666C1E3725 /* ApexUninstallerApp.swift */,
+				6F32BB0CF9EAF245305CC39D /* Assets.xcassets */,
+				58AF2EBBC2526B7825B07CD7 /* Info.plist */,
+				31937CFADB9550537D81AC04 /* Models */,
+				B3EB56B017BE8FFB932D5C5D /* Services */,
+				9FB37B845A6EDCCFE3EF6B89 /* Utilities */,
+				7EEAE2A9D2FE55A1291D0494 /* ViewModels */,
+				03FD6761C39737283C130904 /* Views */,
+			);
+			path = ApexUninstaller;
+			sourceTree = "<group>";
+		};
+		7E21B60865DCEA91BD3D5BEE /* ApexUninstallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				12B4F4EE93A60AAD69FDC63E /* AppModelTests.swift */,
+				CAEBC385424EFC6FEC0B6588 /* AppSortOrderTests.swift */,
+				CCF96449BB63B4609F6CA56C /* CleanupHistoryTests.swift */,
+				D4082DAA4FA6AB895A950B75 /* FileSizeExtensionTests.swift */,
+				BA5423E036DAF863410A5195 /* LeftoverCategoryTests.swift */,
+				684A1CD2D01FD81B5F3FE404 /* LeftoverConfidenceTests.swift */,
+				2A071B80459A4C1DE7CC8AA6 /* LocalizationManagerTests.swift */,
+				3D78AD831F67EB2A19BE01B7 /* RemovalSafetyPolicyTests.swift */,
+				0BE63A3E9952FE04CD838F02 /* UninstallResultTests.swift */,
+				E4E0B754D092641C3E121F8C /* WindowMenuTests.swift */,
+			);
+			path = ApexUninstallerTests;
+			sourceTree = "<group>";
+		};
+		7EEAE2A9D2FE55A1291D0494 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A77E863AD9C9C79547776C9E /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9FB37B845A6EDCCFE3EF6B89 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E67E1150E5B3BE7934E15CE7 /* DistributionChannel.swift */,
+				6B0DF4DD4A19A12D9A5A6567 /* FileSize+Extensions.swift */,
+				B3E42C30164BD055F1499BE1 /* HomeDirectory.swift */,
+				5E75950E10A74812942F46B1 /* NSImage+Extensions.swift */,
+				39FBE3D0107A1E33C3A3CD2A /* RemovalSafetyPolicy.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B3EB56B017BE8FFB932D5C5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				37AE07466706A7C808EC323B /* AppUsageAnalyzer.swift */,
+				FCB2DBFF69D3A828DD9F9206 /* BookmarkManager.swift */,
+				4B47CE8D023D4A9110FC4BE9 /* DuplicateFinderService.swift */,
+				7E541C46CB31F7F2063085D7 /* LaunchAtLoginManager.swift */,
+				05564808428C3BE4C3A63C1B /* LocalizationManager.swift */,
+				26383F3026152024402766E5 /* MenuBarManager.swift */,
+				61F033F9D24089731ACE8E8A /* ScannerService.swift */,
+				F7B2E699455E03AEB442AEA8 /* ScheduledScanManager.swift */,
+				DD33F324063112EC8E416B29 /* SmartNotificationService.swift */,
+				D9E4DE5E90EFF0B2C42B0021 /* SystemJunkScanner.swift */,
+				091D54A1B55A9DEF0FE4388D /* UninstallService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E122DFDBB619DC2F63D1A2EC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6B673AF592C7A8A3240C2541 /* AppRowView.swift */,
+				21E0C9E0A739F48653D11063 /* DashboardView.swift */,
+				33BBD85202A600083F47B2BB /* DuplicateFinderView.swift */,
+				265154546E386ADEB7A2454A /* GlassBackground.swift */,
+				E7E324E95163F40AA6B843D5 /* LeftoverRowView.swift */,
+				FE23E0A5EB908C95D16F617E /* ScanProgressView.swift */,
+				50DCEFA98F4AE32BDF556A40 /* SettingsView.swift */,
+				EA79E66B2924384764EC7198 /* SystemJunkView.swift */,
+				10AB2C0D407ACA8F32F296CA /* UsageAnalysisView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F8F2CB94D17A40C742250CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE853D130B81DB07669777 /* ApexUninstaller.app */,
+				7D36B66E6ABE997606BC9324 /* ApexUninstallerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B7A32A44DF2134834EF0042 /* ApexUninstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666D382356DB416D0D7F31DB /* Build configuration list for PBXNativeTarget "ApexUninstaller" */;
+			buildPhases = (
+				30B9F48132B8396C6EA621A8 /* Sources */,
+				77934F7871C61768A1A4C436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApexUninstaller;
+			packageProductDependencies = (
+			);
+			productName = ApexUninstaller;
+			productReference = 2CBE853D130B81DB07669777 /* ApexUninstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B3AE14092801A7EB7E5FC17 /* ApexUninstallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C7AE3C750A189416554FC4 /* Build configuration list for PBXNativeTarget "ApexUninstallerTests" */;
+			buildPhases = (
+				B3A58DA8FD779C1FE8205E5D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EC3AFB735313F45712EADDD /* PBXTargetDependency */,
+			);
+			name = ApexUninstallerTests;
+			packageProductDependencies = (
+			);
+			productName = ApexUninstallerTests;
+			productReference = 7D36B66E6ABE997606BC9324 /* ApexUninstallerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E0F157A85E2EAF5F1E23BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4B7A32A44DF2134834EF0042 = {
+						ProvisioningStyle = Automatic;
+					};
+					9B3AE14092801A7EB7E5FC17 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2BB83A21EDEB2AD11B05A46D /* Build configuration list for PBXProject "ApexUninstaller" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 67BF366FC8144266A02B464F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F8F2CB94D17A40C742250CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B7A32A44DF2134834EF0042 /* ApexUninstaller */,
+				9B3AE14092801A7EB7E5FC17 /* ApexUninstallerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77934F7871C61768A1A4C436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B75A781E14146F6B1BB945 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30B9F48132B8396C6EA621A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521CEF53DC5FC96862F8DBB8 /* ApexUninstallerApp.swift in Sources */,
+				0273DC1B632FA8B6029158EE /* AppModel.swift in Sources */,
+				0CC6F728E6D244C83FA1C912 /* AppRowView.swift in Sources */,
+				FB9C7EA35F166458D3EC1088 /* AppUsageAnalyzer.swift in Sources */,
+				3E095D8CB6DE98F3014D791D /* AppUsageStats.swift in Sources */,
+				2AD24ED9C6A9687266D296BC /* AppViewModel.swift in Sources */,
+				04094FBF1FF37D1E552FFF2A /* BookmarkManager.swift in Sources */,
+				4AAB03C3A445248F0A4EF305 /* DashboardView.swift in Sources */,
+				8F07EBAE8FC7548023536091 /* DetailView.swift in Sources */,
+				4340683B0DDDEF8793EE462D /* DiskSpaceStats.swift in Sources */,
+				325B65F0382006321B7BA3E7 /* DistributionChannel.swift in Sources */,
+				064AA989AD4DB00018BE99EA /* DuplicateFinderService.swift in Sources */,
+				947CA0CCEB45452F48B669A0 /* DuplicateFinderView.swift in Sources */,
+				9AB5E2800157FDDF7479167A /* DuplicateGroup.swift in Sources */,
+				B9CC5624792FDDFBD7A157FA /* EmptyStateView.swift in Sources */,
+				0E9F8C2893FFA14F7858D464 /* FileSize+Extensions.swift in Sources */,
+				21FAD8C1DD978CEC3A4F8536 /* GlassBackground.swift in Sources */,
+				026A0B19A2EBF878E68EE0E2 /* HomeDirectory.swift in Sources */,
+				FD366E702BAB9A4D00940750 /* LaunchAtLoginManager.swift in Sources */,
+				1FC8DB01E7690CE18E79B6FE /* LeftoverFile.swift in Sources */,
+				996762E2C081D136C00BA514 /* LeftoverRowView.swift in Sources */,
+				392DF9B0CC45D52930463E2E /* LocalizationManager.swift in Sources */,
+				E0DBAF4D1F242B1C0A2CF917 /* MainView.swift in Sources */,
+				B065CF680986E7F4F165BC95 /* MenuBarManager.swift in Sources */,
+				6D164241A06DE44F34016114 /* NSImage+Extensions.swift in Sources */,
+				B918B4A62C9E70D2371B6066 /* OnboardingSheet.swift in Sources */,
+				B0AB38BC915D10D3544A9A72 /* RemovalSafetyPolicy.swift in Sources */,
+				3F82772998D54B09FBAD4441 /* ScanProgressView.swift in Sources */,
+				BF8F8DF66FB90053FAD30EA3 /* ScannerService.swift in Sources */,
+				6ABE0928EF0B6DD0F8659457 /* ScheduledScanManager.swift in Sources */,
+				4F08A68AFE5FC18D90BF19DC /* SettingsView.swift in Sources */,
+				739951046F360D56B9927203 /* SidebarView.swift in Sources */,
+				63103F82016995EC1FCF7A49 /* SmartNotificationService.swift in Sources */,
+				B50FA3D6315100296881444E /* SystemJunkItem.swift in Sources */,
+				F9CEF4F7CBC576AF020B722A /* SystemJunkScanner.swift in Sources */,
+				27B4E0B305B07AC1D03397F8 /* SystemJunkView.swift in Sources */,
+				A1CEBC922A393D09F6B9B490 /* UninstallService.swift in Sources */,
+				7A4D29FC7C0A63690D54DB22 /* UsageAnalysisView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A58DA8FD779C1FE8205E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0708B59A424F76E774A15A5B /* AppModelTests.swift in Sources */,
+				AF5642950273BC1D514589B7 /* AppSortOrderTests.swift in Sources */,
+				F9B3C7B9EC3C18DDBB1EE5CD /* CleanupHistoryTests.swift in Sources */,
+				5D3750BB99ACA0C7CD59C45B /* FileSizeExtensionTests.swift in Sources */,
+				3CBCE7B26E53939EFDA89C97 /* LeftoverCategoryTests.swift in Sources */,
+				B16BEA9130B877F1E2998E4A /* LeftoverConfidenceTests.swift in Sources */,
+				04EA8B68D45DC53EAD46617F /* LocalizationManagerTests.swift in Sources */,
+				9DC55CC6B961113B4CA96554 /* RemovalSafetyPolicyTests.swift in Sources */,
+				FE26B6FFE4D3A4C4030F1B43 /* UninstallResultTests.swift in Sources */,
+				54E411F762CD6764C0AF0C6D /* WindowMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EC3AFB735313F45712EADDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B7A32A44DF2134834EF0042 /* ApexUninstaller */;
+			targetProxy = D75C232A4CE87834997F0AC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18D4822FF1750EE7D521D174 /* DirectRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = DirectRelease;
+		};
+		2A2928A6C9D596D5EAA8102D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ApexUninstaller/ApexUninstaller.debug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 11;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ApexUninstaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller;
+				PRODUCT_NAME = ApexUninstaller;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		3AE332D35E61D9B0398F0847 /* DirectDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ApexUninstaller/ApexUninstaller.direct.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 11;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ApexUninstaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller;
+				PRODUCT_NAME = ApexUninstaller;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DIRECT_DISTRIBUTION";
+				SWIFT_VERSION = 5.9;
+			};
+			name = DirectDebug;
+		};
+		48EC345F131D253FC55206EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		51B3CDA9873A5170A94E5E10 /* DirectRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller.tests;
+				PRODUCT_NAME = ApexUninstallerTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApexUninstaller.app/Contents/MacOS/ApexUninstaller";
+			};
+			name = DirectRelease;
+		};
+		62D4D013E535E65B9D89B9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6460AE2CB2DE5FE2AFBDF147 /* DirectDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller.tests;
+				PRODUCT_NAME = ApexUninstallerTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApexUninstaller.app/Contents/MacOS/ApexUninstaller";
+			};
+			name = DirectDebug;
+		};
+		65031F9E37C2DB867150E26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller.tests;
+				PRODUCT_NAME = ApexUninstallerTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApexUninstaller.app/Contents/MacOS/ApexUninstaller";
+			};
+			name = Release;
+		};
+		8E2211176FEBAF0FF41DBC13 /* DirectRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ApexUninstaller/ApexUninstaller.direct.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = 84253AGHK5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ApexUninstaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller;
+				PRODUCT_NAME = ApexUninstaller;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DIRECT_DISTRIBUTION";
+				SWIFT_VERSION = 5.9;
+			};
+			name = DirectRelease;
+		};
+		AFAD1991AD37C9AC1F341A06 /* DirectDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = DirectDebug;
+		};
+		C97DC36CC0ECFBA802075B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ApexUninstaller/ApexUninstaller.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = 84253AGHK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ApexUninstaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller;
+				PRODUCT_NAME = ApexUninstaller;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		EF36C4CB7A82CC15FB6BB4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller.tests;
+				PRODUCT_NAME = ApexUninstallerTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApexUninstaller.app/Contents/MacOS/ApexUninstaller";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB83A21EDEB2AD11B05A46D /* Build configuration list for PBXProject "ApexUninstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D4D013E535E65B9D89B9D8 /* Debug */,
+				AFAD1991AD37C9AC1F341A06 /* DirectDebug */,
+				18D4822FF1750EE7D521D174 /* DirectRelease */,
+				48EC345F131D253FC55206EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		666D382356DB416D0D7F31DB /* Build configuration list for PBXNativeTarget "ApexUninstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2928A6C9D596D5EAA8102D /* Debug */,
+				3AE332D35E61D9B0398F0847 /* DirectDebug */,
+				8E2211176FEBAF0FF41DBC13 /* DirectRelease */,
+				C97DC36CC0ECFBA802075B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1C7AE3C750A189416554FC4 /* Build configuration list for PBXNativeTarget "ApexUninstallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF36C4CB7A82CC15FB6BB4C4 /* Debug */,
+				6460AE2CB2DE5FE2AFBDF147 /* DirectDebug */,
+				51B3CDA9873A5170A94E5E10 /* DirectRelease */,
+				65031F9E37C2DB867150E26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E0F157A85E2EAF5F1E23BE2 /* Project object */;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - ApexUninstaller</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 40px 20px; line-height: 1.7; color: #333; background: #fafafa; }
+        h1 { color: #1a1a2e; border-bottom: 2px solid #6366f1; padding-bottom: 10px; margin-bottom: 20px; }
+        h2 { color: #4338ca; margin-top: 30px; margin-bottom: 12px; }
+        .faq { background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; margin: 12px 0; }
+        .faq h3 { color: #1a1a2e; margin-top: 0; margin-bottom: 8px; }
+        .faq.new { border-color: #22c55e; }
+        .faq.new h3::before { content: "✨ "; }
+        .contact { background: #6366f1; color: white; padding: 24px; border-radius: 12px; text-align: center; margin-top: 30px; }
+        .contact a { color: white; font-weight: bold; }
+        .lang-bar { display: flex; gap: 8px; justify-content: flex-end; margin-bottom: 20px; flex-wrap: wrap; }
+        .lang-bar button { background: #e5e7eb; border: none; padding: 4px 10px; border-radius: 6px; cursor: pointer; font-size: 13px; }
+        .lang-bar button.active { background: #6366f1; color: white; }
+        .lang-section { display: none; }
+        .lang-section.active { display: block; }
+        a { color: #6366f1; }
+        .nav { margin-bottom: 16px; }
+        .nav a { margin-right: 16px; text-decoration: none; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="nav"><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+    <div class="lang-bar" id="langBar"></div>
+
+    <div class="lang-section active" data-lang="en">
+        <h1>Support</h1>
+        <h2>What's New</h2>
+        <div class="faq new"><h3>Menu Bar Icon</h3><p>Quick access to cleanup from your menu bar. Click to see stats, or right-click for quick actions like Scan, Orphans, and History.</p></div>
+        <div class="faq new"><h3>System Junk Cleaner</h3><p>Review and clean selected browser caches, user logs, temporary files, and Xcode build data.</p></div>
+        <div class="faq new"><h3>Smart Notifications</h3><p>Get reminded when you have junk files to clean. Notifications are smart - they won't spam you.</p></div>
+        
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq"><h3>How do I grant Library access?</h3><p>The Direct edition scans ~/Library without a folder picker. The Mac App Store edition asks you to select ~/Library once. Full Disk Access is optional and can be opened from Direct edition Settings.</p></div>
+        <div class="faq"><h3>Is it safe to delete the files?</h3><p>Uninstall, Reset, and System Junk cleanup move selected items to Trash when macOS permits it. You can review detailed paths before cleaning.</p></div>
+        <div class="faq"><h3>Will it delete important system files?</h3><p>The app does not target protected macOS system folders. It may show user-level Apple app caches such as Safari or QuickLook, and lets you review detailed paths before cleaning.</p></div>
+        <div class="faq"><h3>What is Reset Mode?</h3><p>Reset Mode moves selected app data, preferences, caches, and containers to Trash while keeping the app itself installed.</p></div>
+        <div class="faq"><h3>What are Safe, Likely, and Review labels?</h3><p>They explain how confidently ApexUninstaller matched each leftover. Review items are not selected by default.</p></div>
+        <div class="faq"><h3>How do I enable Menu Bar icon?</h3><p>Open Settings (from toolbar) and toggle "Show in Menu Bar" on. The icon will appear in your menu bar for quick access.</p></div>
+        <div class="faq"><h3>Where are reports saved?</h3><p>Reports are saved only to the location you choose in the macOS save dialog.</p></div>
+        <div class="faq"><h3>What is the Dashboard?</h3><p>The Dashboard shows disk space analysis: total junk size, top apps with the most leftover files, and a category breakdown. Open it from the toolbar.</p></div>
+        <div class="faq"><h3>Can I drag &amp; drop apps?</h3><p>Yes! Drag any .app file from Finder onto the ApexUninstaller window to instantly scan it for leftovers and uninstall.</p></div>
+        <div class="faq"><h3>How do I add custom scan locations?</h3><p>Click the folder icon in the toolbar to add folders like /Users/Shared, Steam libraries, or external drives where you have apps installed.</p></div>
+        <div class="faq"><h3>Can I hide apps from the list?</h3><p>Yes, use the Ignore button on any app's detail view. Ignored apps won't appear in the list. You can restore them from the toolbar.</p></div>
+        <div class="faq"><h3>Which macOS versions are supported?</h3><p>macOS 14.0 (Sonoma) or later.</p></div>
+        <div class="faq"><h3>How do I change the language?</h3><p>Click the flag icon in the toolbar to switch between 8 supported languages.</p></div>
+        <div class="contact"><h2 style="color:white;margin-top:0;">Need Help?</h2><p>Email: <a href="mailto:dangvanhai13091989@gmail.com">dangvanhai13091989@gmail.com</a></p><p>We typically respond within 24 hours.</p></div>
+    </div>
+
+    <div class="lang-section" data-lang="vi">
+        <h1>Hỗ trợ</h1>
+        <h2>Tính năng mới</h2>
+        <div class="faq new"><h3>Icon thanh menu</h3><p>Truy cập nhanh dọn dẹp từ thanh menu. Click để xem stats, hoặc click phải cho các tác vụ nhanh.</p></div>
+        <div class="faq new"><h3>Dọn rác hệ thống</h3><p>Xem và dọn cache trình duyệt, log người dùng, file tạm và dữ liệu build Xcode đã chọn.</p></div>
+        <div class="faq new"><h3>Thông báo thông minh</h3><p>Nhận nhắc nhở khi có file rác cần dọn. Thông báo được tối ưu để không làm phiền bạn.</p></div>
+        
+        <h2>Câu hỏi thường gặp</h2>
+        <div class="faq"><h3>Làm thế nào để cấp quyền Library?</h3><p>Bản Direct quét ~/Library trực tiếp. Bản Mac App Store yêu cầu bạn chọn ~/Library một lần. Full Disk Access là tùy chọn và có thể mở từ Cài đặt của bản Direct.</p></div>
+        <div class="faq"><h3>Có an toàn không?</h3><p>Gỡ app, Reset và Dọn rác hệ thống sẽ chuyển mục đã chọn vào Thùng rác khi macOS cho phép. Bạn có thể xem đường dẫn chi tiết trước khi dọn.</p></div>
+        <div class="faq"><h3>App có xóa file hệ thống không?</h3><p>App không nhắm tới thư mục hệ thống được macOS bảo vệ. Một số cache cấp người dùng của Safari, QuickLook hoặc ứng dụng Apple có thể xuất hiện để bạn tự xem chi tiết trước khi dọn.</p></div>
+        <div class="faq"><h3>Reset Mode là gì?</h3><p>Reset Mode chuyển dữ liệu, cấu hình, cache và container đã chọn vào Thùng rác nhưng vẫn giữ lại app.</p></div>
+        <div class="faq"><h3>Nhãn An toàn / Có khả năng / Xem kỹ là gì?</h3><p>Đây là độ tin cậy của kết quả match. Mục Xem kỹ không được chọn mặc định.</p></div>
+        <div class="faq"><h3>Báo cáo được lưu ở đâu?</h3><p>Báo cáo chỉ được lưu vào vị trí bạn chọn trong hộp thoại lưu của macOS.</p></div>
+        <div class="faq"><h3>Hỗ trợ macOS nào?</h3><p>macOS 14.0 (Sonoma) trở lên.</p></div>
+        <div class="contact"><h2 style="color:white;margin-top:0;">Cần giúp đỡ?</h2><p>Email: <a href="mailto:dangvanhai13091989@gmail.com">dangvanhai13091989@gmail.com</a></p><p>Chúng tôi phản hồi trong 24 giờ.</p></div>
+    </div>
+
+    <div class="lang-section" data-lang="ja">
+        <h1>サポート</h1>
+        <h2>新機能</h2>
+        <div class="faq new"><h3>メニューバーアイコン</h3><p>メニューバーからクリーンアップにクイックアクセス。左クリックで統計を表示、右クリックでスキャン、オーファン、ヒストリなどのクイックアクション。</p></div>
+        <div class="faq new"><h3>システムジャンククリーナー</h3><p>ブラウザキャッシュ、ユーザーログ、一時ファイル、Xcodeビルドデータを確認して削除できます。</p></div>
+        <div class="faq new"><h3>スマート通知</h3><p>ジャンクファイルをクリーンするタイミングを通知。通知はスマートで、スパムしません。</p></div>
+        
+        <h2>よくある質問</h2>
+        <div class="faq"><h3>Libraryアクセスの許可方法は？</h3><p>Direct版は~/Libraryを直接スキャンします。Mac App Store版では、初回に~/Libraryを選択してください。</p></div>
+        <div class="faq"><h3>ファイルの削除は安全ですか？</h3><p>アンインストール、リセット、System Junkは、macOSが許可する場合、選択項目をゴミ箱へ移動します。</p></div>
+        <div class="contact"><h2 style="color:white;margin-top:0;">お問い合わせ</h2><p>メール: <a href="mailto:dangvanhai13091989@gmail.com">dangvanhai13091989@gmail.com</a></p></div>
+    </div>
+
+    <div class="lang-section" data-lang="ko">
+        <h1>지원</h1>
+        <h2>새로운 기능</h2>
+        <div class="faq new"><h3>메뉴 바 아이콘</h3><p>메뉴 바에서 정리로 빠른 액세스. 왼쪽 클릭으로 통계 확인, 오른쪽 클릭으로 스캔, 고아, 히스토리 등의 빠른 작업.</p></div>
+        <div class="faq new"><h3>시스템 정크 클리너</h3><p>브라우저 캐시, 사용자 로그, 임시 파일, Xcode 빌드 데이터를 검토하고 정리합니다.</p></div>
+        <div class="faq new"><h3>스마트 알림</h3><p>정크 파일을 정리해야 할 때 알림을 받습니다. 알림은 과도하게 표시되지 않습니다.</p></div>
+        
+        <h2>자주 묻는 질문</h2>
+        <div class="faq"><h3>Library 접근 권한 부여 방법</h3><p>Direct 버전은 ~/Library를 직접 스캔합니다. Mac App Store 버전에서는 처음 한 번 ~/Library를 선택하세요.</p></div>
+        <div class="faq"><h3>파일 삭제가 안전한가요?</h3><p>앱 제거, Reset, System Junk는 macOS가 허용하는 경우 선택 항목을 휴지통으로 이동합니다.</p></div>
+        <div class="contact"><h2 style="color:white;margin-top:0;">도움이 필요하신가요?</h2><p>이메일: <a href="mailto:dangvanhai13091989@gmail.com">dangvanhai13091989@gmail.com</a></p></div>
+    </div>
+
+    <div class="lang-section" data-lang="zh">
+        <h1>支持</h1>
+        <h2>新功能</h2>
+        <div class="faq new"><h3>菜单栏图标</h3><p>从菜单栏快速访问清理。左键点击查看统计，右键点击快速操作如扫描、孤立文件、历史记录。</p></div>
+        <div class="faq new"><h3>系统垃圾清洁</h3><p>查看并清理所选浏览器缓存、用户日志、临时文件和 Xcode 构建数据。</p></div>
+        <div class="faq new"><h3>智能通知</h3><p>在有垃圾文件需要清理时收到提醒。通知是智能的，不会打扰您。</p></div>
+        
+        <h2>常见问题</h2>
+        <div class="faq"><h3>如何授权Library访问？</h3><p>Direct 版直接扫描 ~/Library。Mac App Store 版会要求您首次选择 ~/Library。</p></div>
+        <div class="faq"><h3>删除文件安全吗？</h3><p>卸载、重置和 System Junk 会在 macOS 允许时将所选项目移到废纸篓。</p></div>
+        <div class="contact"><h2 style="color:white;margin-top:0;">需要帮助？</h2><p>邮箱: <a href="mailto:dangvanhai13091989@gmail.com">dangvanhai13091989@gmail.com</a></p></div>
+    </div>
+
+    <div class="lang-section" data-lang="fr">
+        <h1>Support</h1>
+        <h2>Nouvelles fonctionnalités</h2>
+        <div class="faq new"><h3>Icône barre de menu</h3><p>Accès rapide au nettoyage depuis votre barre de menu. Clic gauche pour les stats, clic droit pour Scan, Orphelins, et Historique.</p></div>
+        <div class="faq new"><h3>Nettoyeur de déchets système</h3><p>Vérifiez et nettoyez les caches navigateur, journaux utilisateur, fichiers temporaires et données Xcode.</p></div>
+        <div class="faq new"><h3>Notifications intelligentes</h3><p>Recevez des rappels quand vous avez des fichiers à nettoyer. Les notifications sont intelligentes et non intrusives.</p></div>
+        
+        <h2>Questions fréquentes</h2>
+        <div class="faq"><h3>Comment accorder l'accès Library ?</h3><p>La version Direct analyse ~/Library directement. La version Mac App Store vous demande de sélectionner ~/Library une seule fois.</p></div>
+        <div class="faq"><h3>La suppression est-elle sûre ?</h3><p>Désinstaller, Reset et System Junk déplacent les éléments sélectionnés vers la Corbeille lorsque macOS l'autorise.</p></div>
+        <div class="contact"><h2 style="color:white;margin-top:0;">Besoin d'aide ?</h2><p>Email : <a href="mailto:dangvanhai13091989@gmail.com">dangvanhai13091989@gmail.com</a></p></div>
+    </div>
+
+    <div class="lang-section" data-lang="de">
+        <h1>Support</h1>
+        <h2>Neue Funktionen</h2>
+        <div class="faq new"><h3>Menüleisten-Symbol</h3><p>Schneller Zugriff auf Bereinigung von Ihrer Menüleiste. Linksklick für Statistiken, Rechtsklick für Scan, Verwaiste und Verlauf.</p></div>
+        <div class="faq new"><h3>Systemmüll-Entferner</h3><p>Browser-Caches, Benutzerprotokolle, temporäre Dateien und Xcode-Build-Daten prüfen und bereinigen.</p></div>
+        <div class="faq new"><h3>Intelligente Benachrichtigungen</h3><p>Erhalten Sie Erinnerungen, wenn Sie Junk-Dateien bereinigen sollten. Benachrichtigungen sind intelligent und nicht aufdringlich.</p></div>
+        
+        <h2>Häufig gestellte Fragen</h2>
+        <div class="faq"><h3>Wie gewähre ich Library-Zugriff?</h3><p>Die Direct-Version scannt ~/Library direkt. In der Mac-App-Store-Version wählen Sie ~/Library beim ersten Start einmal aus.</p></div>
+        <div class="faq"><h3>Ist das Löschen sicher?</h3><p>Deinstallation, Reset und System Junk verschieben ausgewählte Elemente in den Papierkorb, wenn macOS dies zulässt.</p></div>
+        <div class="contact"><h2 style="color:white;margin-top:0;">Hilfe benötigt?</h2><p>E-Mail: <a href="mailto:dangvanhai13091989@gmail.com">dangvanhai13091989@gmail.com</a></p></div>
+    </div>
+
+    <div class="lang-section" data-lang="es">
+        <h1>Soporte</h1>
+        <h2>Nuevas funciones</h2>
+        <div class="faq new"><h3>Icono de barra de menú</h3><p>Acceso rápido a limpieza desde tu barra de menú. Clic izquierdo para estadísticas, clic derecho para Escaneo, Huérfanos e Historial.</p></div>
+        <div class="faq new"><h3>Limpiador de basura del sistema</h3><p>Revise y limpie cachés del navegador, registros de usuario, temporales y datos de compilación Xcode.</p></div>
+        <div class="faq new"><h3>Notificaciones inteligentes</h3><p>Recibe recordatorios cuando tengas archivos basura que limpiar. Las notificaciones son inteligentes y no intrusivas.</p></div>
+        
+        <h2>Preguntas frecuentes</h2>
+        <div class="faq"><h3>¿Cómo conceder acceso a Library?</h3><p>La versión Direct analiza ~/Library directamente. En la versión de Mac App Store, seleccione ~/Library una vez al primer inicio.</p></div>
+        <div class="faq"><h3>¿Es seguro eliminar archivos?</h3><p>Desinstalar, Reset y System Junk mueven los elementos seleccionados a la Papelera cuando macOS lo permite.</p></div>
+        <div class="contact"><h2 style="color:white;margin-top:0;">¿Necesita ayuda?</h2><p>Correo: <a href="mailto:dangvanhai13091989@gmail.com">dangvanhai13091989@gmail.com</a></p></div>
+    </div>
+
+    <script>
+        const langs = {en:'🇺🇸 EN',vi:'🇻🇳 VI',ja:'🇯🇵 JA',ko:'🇰🇷 KO',zh:'🇨🇳 ZH',fr:'🇫🇷 FR',de:'🇩🇪 DE',es:'🇪🇸 ES'};
+        const bar = document.getElementById('langBar');
+        Object.entries(langs).forEach(([code, label]) => {
+            const btn = document.createElement('button');
+            btn.textContent = label;
+            btn.className = code === 'en' ? 'active' : '';
+            btn.onclick = () => {
+                document.querySelectorAll('.lang-section').forEach(s => s.classList.remove('active'));
+                document.querySelectorAll('.lang-bar button').forEach(b => b.classList.remove('active'));
+                document.querySelector(`[data-lang="${code}"]`).classList.add('active');
+                btn.classList.add('active');
+            };
+            bar.appendChild(btn);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+# Build artifacts - DO NOT COMMIT
+build/
+*.xcarchive
+*.dSYM
+
+# Xcode DerivedData
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+*.xcuserdatad/
+xcuserdata/
+
+# macOS
+.DS_Store
+
+# IDE
+*.swp
+*.swo
+*~
+
+# CocoaPods
+# Pods/
+
+# Swift Package Manager
+# .swiftpm/
+
+# Archives
+*.zip
+*.tar.gz
+*.dmg
+
+# Signing and notarization secrets
+*.cer
+*.p12
+*.provisionprofile
+*.mobileprovision
+.env
+.env.*
+notary-credentials*

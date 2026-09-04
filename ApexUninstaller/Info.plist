@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>ApexUninstaller</string>
+    <key>CFBundleDisplayName</key>
+    <string>ApexUninstaller</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>ApexUninstaller accesses your Apple Music library only when you choose the Music folder for a duplicate or large-file scan, for example to find duplicate MP3 files. File contents are processed on-device and never uploaded.</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2026 Hai Dang Van.</string>
+    <!-- App không dùng mã hóa → tránh "Missing Compliance" trên App Store Connect -->
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <!-- Ẩn app khỏi Dock — chỉ hiện trên menu bar, vẫn chạy đầy đủ khi đóng cửa sổ -->
+</dict>
+</plist>
