@@ -89,7 +89,10 @@ xcrun stapler validate "${app_path}"
 spctl --assess --type execute --verbose=2 "${app_path}"
 
 ditto -c -k --sequesterRsrc --keepParent "${app_path}" "${artifact_path}"
-shasum -a 256 "${artifact_path}" > "${checksum_path}"
+(
+    cd "${release_root}"
+    shasum -a 256 "${artifact_path:t}" > "${checksum_path:t}"
+)
 
 print "Release artifact: ${artifact_path}"
 print "Checksum: ${checksum_path}"
