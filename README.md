@@ -76,7 +76,9 @@ Issues and pull requests are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING
 
 ## Support development
 
-ApexUninstaller is free software. GitHub Sponsors onboarding is pending; the donation link will be enabled here after GitHub approves the maintainer profile. Until then, starring and sharing the project is the best way to support development. Sponsorship will always be optional and will not unlock features.
+ApexUninstaller is free software. GitHub Sponsors is the project's official donation channel and supports both one-time and monthly contributions once the maintainer profile is live. The repository's **Sponsor** button is configured through `.github/FUNDING.yml` and will appear automatically after payout verification is complete.
+
+Sponsorship is always optional and never unlocks features. See [SUPPORT.md](SUPPORT.md) for what donations fund, free ways to help, and how to avoid unofficial payment requests.
 
 ## License and name
 
