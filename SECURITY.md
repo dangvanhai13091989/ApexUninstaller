@@ -8,7 +8,7 @@ Security fixes are applied to the latest release.
 
 Please do not open a public issue for a vulnerability that could cause unintended file removal, privilege escalation or exposure of user data.
 
-Email `dangvanhai13091989@gmail.com` with:
+Use [GitHub's private vulnerability reporting](https://github.com/dangvanhai13091989/ApexUninstaller/security/advisories/new) whenever possible. You can alternatively email `dangvanhai13091989@gmail.com` with:
 
 - affected version and macOS version;
 - reproduction steps;
