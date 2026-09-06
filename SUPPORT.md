@@ -4,7 +4,7 @@ ApexUninstaller is free and open-source software. Every feature, source release 
 
 ## Financial support
 
-GitHub Sponsors is the only official donation channel for this project. The repository's **Sponsor** button is configured in `.github/FUNDING.yml` and becomes available when the maintainer's payout profile is live.
+The project's official donation link is [paypal.me/HaiDang880](https://paypal.me/HaiDang880). It is also listed in `.github/FUNDING.yml` and shown by the repository's **Sponsor** button.
 
 Please do not send money to payment addresses posted in issues, discussions or comments. Those addresses are not endorsed unless they also appear in this repository's default branch.
 
@@ -26,6 +26,6 @@ Sponsorship does not purchase feature priority, private support or exceptions to
 
 ## Tiếng Việt
 
-ApexUninstaller luôn miễn phí và mã nguồn mở. GitHub Sponsors là kênh ủng hộ tài chính chính thức duy nhất của dự án. Tiền ủng hộ được dùng cho tài khoản Apple Developer, ký và notarize ứng dụng, kiểm thử tương thích, sửa lỗi và duy trì tài liệu.
+ApexUninstaller luôn miễn phí và mã nguồn mở. Kênh ủng hộ tài chính chính thức của dự án là [paypal.me/HaiDang880](https://paypal.me/HaiDang880). Tiền ủng hộ được dùng cho tài khoản Apple Developer, ký và notarize ứng dụng, kiểm thử tương thích, sửa lỗi và duy trì tài liệu.
 
-Ủng hộ không mở khóa tính năng, không mua quyền ưu tiên và hoàn toàn không bắt buộc. Khi nút **Sponsor** chưa xuất hiện, hồ sơ nhận thanh toán của người duy trì vẫn đang được hoàn tất.
+Ủng hộ không mở khóa tính năng, không mua quyền ưu tiên và hoàn toàn không bắt buộc.

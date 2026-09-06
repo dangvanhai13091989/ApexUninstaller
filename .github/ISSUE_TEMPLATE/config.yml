@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/dangvanhai13091989/ApexUninstaller/discussions
+    about: Ask for help or discuss an idea with the community.
+  - name: Security vulnerability
+    url: https://github.com/dangvanhai13091989/ApexUninstaller/security/policy
+    about: Follow the private reporting instructions in the security policy.

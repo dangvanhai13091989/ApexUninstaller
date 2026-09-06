@@ -1,14 +1,40 @@
-# ApexUninstaller
+<p align="center">
+  <img src="ApexUninstaller/Assets.xcassets/AppIcon.appiconset/AppIcon_256.png" width="128" alt="ApexUninstaller app icon">
+</p>
 
-A lightweight, private macOS app uninstaller that finds related leftovers before moving selected items to Trash.
+<h1 align="center">ApexUninstaller</h1>
 
-![ApexUninstaller](artifacts/screenshots/marketing/01-uninstall-with-confidence.png)
+<p align="center">
+  A private, open-source macOS uninstaller that finds related leftovers and lets you review everything before moving it to Trash.
+</p>
+
+<p align="center">
+  <a href="https://github.com/dangvanhai13091989/ApexUninstaller/releases/latest"><img src="https://img.shields.io/github/v/release/dangvanhai13091989/ApexUninstaller?display_name=tag&sort=semver" alt="Latest release"></a>
+  <a href="https://github.com/dangvanhai13091989/ApexUninstaller/actions/workflows/ci.yml"><img src="https://github.com/dangvanhai13091989/ApexUninstaller/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
+  <a href="https://github.com/dangvanhai13091989/ApexUninstaller/releases"><img src="https://img.shields.io/github/downloads/dangvanhai13091989/ApexUninstaller/total" alt="Total downloads"></a>
+  <img src="https://img.shields.io/badge/macOS-14%2B-black?logo=apple" alt="macOS 14 or later">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/dangvanhai13091989/ApexUninstaller" alt="GPL-3.0 license"></a>
+</p>
+
+<p align="center">
+  <strong><a href="https://github.com/dangvanhai13091989/ApexUninstaller/releases/latest">Download the signed app</a></strong>
+  · <a href="#build-from-source">Build from source</a>
+  · <a href="https://paypal.me/HaiDang880">Support development</a>
+</p>
+
+![Uninstall with confidence](artifacts/screenshots/marketing/01-uninstall-with-confidence.png)
+
+## Why ApexUninstaller?
+
+| Thorough cleanup | Safety first | Private by design |
+| --- | --- | --- |
+| Finds caches, preferences, containers, logs and launch agents related to an app. | Shows every path, leaves uncertain items unselected and blocks protected locations. | Scanning stays on your Mac. No account, analytics, tracking or data upload. |
 
 ## Download
 
-The recommended build is **ApexUninstaller Direct** for macOS 14 Sonoma or later.
+The recommended build is **ApexUninstaller Direct** for macOS 14 Sonoma or later. It is a universal app for both Apple Silicon and Intel Macs.
 
-[Download the latest signed and notarized release](https://github.com/dangvanhai13091989/ApexUninstaller/releases/latest)
+[**Download the latest signed and notarized release →**](https://github.com/dangvanhai13091989/ApexUninstaller/releases/latest)
 
 Move `ApexUninstaller.app` to `/Applications`, then open it normally. The release is signed with a Developer ID certificate and notarized by Apple.
 
@@ -23,16 +49,31 @@ Move `ApexUninstaller.app` to `/Applications`, then open it normally. The releas
 
 Full Disk Access is never enabled automatically. macOS requires the user to grant it in System Settings, and ApexUninstaller continues to work with reduced coverage without it.
 
-## Features
+## Highlights
 
-- Find application caches, preferences, containers, logs and launch agents.
-- Confidence labels: Safe, Likely and Review.
-- Reset app data without removing the application.
-- Find orphaned leftovers, duplicate files and large files.
-- Clean user caches, logs and Xcode Derived Data.
-- Move items to Trash instead of permanently deleting them.
-- Keep all scanning on-device with no account or analytics.
-- Localized in English, Vietnamese, Japanese, Korean, Chinese, French, German and Spanish.
+<table>
+  <tr>
+    <td width="50%"><img src="artifacts/screenshots/marketing/02-see-whats-taking-space.png" alt="Disk space overview"></td>
+    <td width="50%"><img src="artifacts/screenshots/marketing/03-rediscover-unused-apps.png" alt="App usage analysis"></td>
+  </tr>
+  <tr>
+    <td><strong>See what's taking space</strong><br>Understand application leftovers, junk categories and potential savings at a glance.</td>
+    <td><strong>Rediscover unused apps</strong><br>Find applications you may no longer need without sending usage information anywhere.</td>
+  </tr>
+</table>
+
+## Everything you need
+
+- **Complete uninstall:** find application caches, preferences, containers, logs and launch agents.
+- **Confidence labels:** understand which matches are Safe, Likely or need Review.
+- **Reset app data:** start fresh without removing the application itself.
+- **Storage tools:** find orphaned leftovers, duplicate files and large files.
+- **System junk:** review user caches, logs and Xcode Derived Data.
+- **Batch workflow:** scan and remove multiple applications efficiently.
+- **Drag and drop:** drop an `.app` onto ApexUninstaller to inspect it immediately.
+- **Custom locations:** include game libraries, external drives or other folders.
+- **Recoverable removal:** move selected items to Trash instead of permanently deleting them.
+- **Eight languages:** English, Vietnamese, Japanese, Korean, Chinese, French, German and Spanish.
 
 ## Safety
 
@@ -76,7 +117,9 @@ Issues and pull requests are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING
 
 ## Support development
 
-ApexUninstaller is free software. GitHub Sponsors is the project's official donation channel and supports both one-time and monthly contributions once the maintainer profile is live. The repository's **Sponsor** button is configured through `.github/FUNDING.yml` and will appear automatically after payout verification is complete.
+ApexUninstaller is free software and every feature remains available without payment. If it saves you time, you can support continued maintenance, signing and notarization through PayPal.
+
+[![Support ApexUninstaller with PayPal](https://img.shields.io/badge/Support_with-PayPal-003087?logo=paypal&logoColor=white)](https://paypal.me/HaiDang880)
 
 Sponsorship is always optional and never unlocks features. See [SUPPORT.md](SUPPORT.md) for what donations fund, free ways to help, and how to avoid unofficial payment requests.
 
@@ -88,4 +131,6 @@ Source code is licensed under [GPL-3.0-or-later](LICENSE). The license does not 
 
 ## Tiếng Việt
 
-ApexUninstaller là ứng dụng gỡ cài đặt macOS mã nguồn mở. Bản Direct không dùng App Sandbox nên có thể quét `~/Library` trực tiếp, nhưng không chạy bằng quyền root và không tự bật Full Disk Access. Mọi mục được chọn vẫn được chuyển vào Thùng rác để có thể khôi phục.
+ApexUninstaller là ứng dụng gỡ cài đặt macOS miễn phí và mã nguồn mở. Bản Direct không dùng App Sandbox nên có thể quét `~/Library` trực tiếp, nhưng không chạy bằng quyền root và không tự bật Full Disk Access. Mọi mục được chọn vẫn được chuyển vào Thùng rác để có thể khôi phục.
+
+[Tải bản mới nhất](https://github.com/dangvanhai13091989/ApexUninstaller/releases/latest) · [Ủng hộ qua PayPal](https://paypal.me/HaiDang880)
