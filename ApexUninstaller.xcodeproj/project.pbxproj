@@ -18,6 +18,7 @@
 		13B75A781E14146F6B1BB945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F32BB0CF9EAF245305CC39D /* Assets.xcassets */; };
 		1FC8DB01E7690CE18E79B6FE /* LeftoverFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A91433E1AC675B45393D9F /* LeftoverFile.swift */; };
 		21FAD8C1DD978CEC3A4F8536 /* GlassBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265154546E386ADEB7A2454A /* GlassBackground.swift */; };
+		235CA6FA13646FBF140499B1 /* ClipboardHotkeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CD92328071374F13250A42 /* ClipboardHotkeyManager.swift */; };
 		27B4E0B305B07AC1D03397F8 /* SystemJunkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79E66B2924384764EC7198 /* SystemJunkView.swift */; };
 		2AD24ED9C6A9687266D296BC /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E863AD9C9C79547776C9E /* AppViewModel.swift */; };
 		325B65F0382006321B7BA3E7 /* DistributionChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E1150E5B3BE7934E15CE7 /* DistributionChannel.swift */; };
@@ -36,12 +37,16 @@
 		6D164241A06DE44F34016114 /* NSImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E75950E10A74812942F46B1 /* NSImage+Extensions.swift */; };
 		739951046F360D56B9927203 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78711214DA1F356AE9F8CF1D /* SidebarView.swift */; };
 		7A4D29FC7C0A63690D54DB22 /* UsageAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB2C0D407ACA8F32F296CA /* UsageAnalysisView.swift */; };
+		7E5BE22C158BDBD290506F54 /* ClipboardHistoryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E884EC512D6DE3EEEC28C1 /* ClipboardHistoryEntry.swift */; };
+		7F1E63DEBDF36A7D59D2DDBC /* ClipboardHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07FD8C25A98262B3BBDC505 /* ClipboardHistoryManager.swift */; };
+		866A9533F6B107DE959FAB29 /* ClipboardHistoryPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297F225C17FAF56C1329CF4E /* ClipboardHistoryPanel.swift */; };
 		8F07EBAE8FC7548023536091 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927DFE7D3C957A4777085E62 /* DetailView.swift */; };
 		947CA0CCEB45452F48B669A0 /* DuplicateFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BBD85202A600083F47B2BB /* DuplicateFinderView.swift */; };
 		996762E2C081D136C00BA514 /* LeftoverRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E324E95163F40AA6B843D5 /* LeftoverRowView.swift */; };
 		9AB5E2800157FDDF7479167A /* DuplicateGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C0DAD5D64C1A15FB391BB /* DuplicateGroup.swift */; };
 		9DC55CC6B961113B4CA96554 /* RemovalSafetyPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D78AD831F67EB2A19BE01B7 /* RemovalSafetyPolicyTests.swift */; };
 		A1CEBC922A393D09F6B9B490 /* UninstallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091D54A1B55A9DEF0FE4388D /* UninstallService.swift */; };
+		AB0F94225C9FEFFEDF7E374C /* ClipboardShortcutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566952AE5E41B8FEFBF6567 /* ClipboardShortcutTests.swift */; };
 		AF5642950273BC1D514589B7 /* AppSortOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEBC385424EFC6FEC0B6588 /* AppSortOrderTests.swift */; };
 		B065CF680986E7F4F165BC95 /* MenuBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26383F3026152024402766E5 /* MenuBarManager.swift */; };
 		B0AB38BC915D10D3544A9A72 /* RemovalSafetyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBE3D0107A1E33C3A3CD2A /* RemovalSafetyPolicy.swift */; };
@@ -51,6 +56,7 @@
 		B9CC5624792FDDFBD7A157FA /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37F5F4B5F3ECC143B8BDEE /* EmptyStateView.swift */; };
 		BF8F8DF66FB90053FAD30EA3 /* ScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F033F9D24089731ACE8E8A /* ScannerService.swift */; };
 		E0DBAF4D1F242B1C0A2CF917 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3447877B8FD443C9729738 /* MainView.swift */; };
+		E565247CBF1B03BF056C2D95 /* ClipboardShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CAA9D2822BA63BA2BA82B9 /* ClipboardShortcut.swift */; };
 		F9B3C7B9EC3C18DDBB1EE5CD /* CleanupHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF96449BB63B4609F6CA56C /* CleanupHistoryTests.swift */; };
 		F9CEF4F7CBC576AF020B722A /* SystemJunkScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E4DE5E90EFF0B2C42B0021 /* SystemJunkScanner.swift */; };
 		FB9C7EA35F166458D3EC1088 /* AppUsageAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AE07466706A7C808EC323B /* AppUsageAnalyzer.swift */; };
@@ -82,6 +88,7 @@
 		21E0C9E0A739F48653D11063 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		26383F3026152024402766E5 /* MenuBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarManager.swift; sourceTree = "<group>"; };
 		265154546E386ADEB7A2454A /* GlassBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackground.swift; sourceTree = "<group>"; };
+		297F225C17FAF56C1329CF4E /* ClipboardHistoryPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHistoryPanel.swift; sourceTree = "<group>"; };
 		2A071B80459A4C1DE7CC8AA6 /* LocalizationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManagerTests.swift; sourceTree = "<group>"; };
 		2CBE853D130B81DB07669777 /* ApexUninstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApexUninstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BBD85202A600083F47B2BB /* DuplicateFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateFinderView.swift; sourceTree = "<group>"; };
@@ -102,11 +109,15 @@
 		78711214DA1F356AE9F8CF1D /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		7D36B66E6ABE997606BC9324 /* ApexUninstallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApexUninstallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E541C46CB31F7F2063085D7 /* LaunchAtLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginManager.swift; sourceTree = "<group>"; };
+		80CAA9D2822BA63BA2BA82B9 /* ClipboardShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardShortcut.swift; sourceTree = "<group>"; };
 		8A3447877B8FD443C9729738 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		927DFE7D3C957A4777085E62 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A07FD8C25A98262B3BBDC505 /* ClipboardHistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHistoryManager.swift; sourceTree = "<group>"; };
 		A722D1EEDA64137F82A95448 /* ApexUninstaller.direct.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApexUninstaller.direct.entitlements; sourceTree = "<group>"; };
 		A77E863AD9C9C79547776C9E /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		B1CD92328071374F13250A42 /* ClipboardHotkeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHotkeyManager.swift; sourceTree = "<group>"; };
 		B3E42C30164BD055F1499BE1 /* HomeDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDirectory.swift; sourceTree = "<group>"; };
+		B7E884EC512D6DE3EEEC28C1 /* ClipboardHistoryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHistoryEntry.swift; sourceTree = "<group>"; };
 		BA5423E036DAF863410A5195 /* LeftoverCategoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftoverCategoryTests.swift; sourceTree = "<group>"; };
 		CAEBC385424EFC6FEC0B6588 /* AppSortOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSortOrderTests.swift; sourceTree = "<group>"; };
 		CCF96449BB63B4609F6CA56C /* CleanupHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupHistoryTests.swift; sourceTree = "<group>"; };
@@ -121,6 +132,7 @@
 		EA79E66B2924384764EC7198 /* SystemJunkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemJunkView.swift; sourceTree = "<group>"; };
 		ECFFF269BD2FC401F07E6EF5 /* AppUsageStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsageStats.swift; sourceTree = "<group>"; };
 		F34C0DAD5D64C1A15FB391BB /* DuplicateGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateGroup.swift; sourceTree = "<group>"; };
+		F566952AE5E41B8FEFBF6567 /* ClipboardShortcutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardShortcutTests.swift; sourceTree = "<group>"; };
 		F7B2E699455E03AEB442AEA8 /* ScheduledScanManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledScanManager.swift; sourceTree = "<group>"; };
 		FCB2DBFF69D3A828DD9F9206 /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
 		FE23E0A5EB908C95D16F617E /* ScanProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanProgressView.swift; sourceTree = "<group>"; };
@@ -145,6 +157,8 @@
 			children = (
 				CD2022E169B5AA88B5E420EC /* AppModel.swift */,
 				ECFFF269BD2FC401F07E6EF5 /* AppUsageStats.swift */,
+				B7E884EC512D6DE3EEEC28C1 /* ClipboardHistoryEntry.swift */,
+				80CAA9D2822BA63BA2BA82B9 /* ClipboardShortcut.swift */,
 				0155DBCEA543E4E3CEA28AAE /* DiskSpaceStats.swift */,
 				F34C0DAD5D64C1A15FB391BB /* DuplicateGroup.swift */,
 				49A91433E1AC675B45393D9F /* LeftoverFile.swift */,
@@ -186,6 +200,7 @@
 				12B4F4EE93A60AAD69FDC63E /* AppModelTests.swift */,
 				CAEBC385424EFC6FEC0B6588 /* AppSortOrderTests.swift */,
 				CCF96449BB63B4609F6CA56C /* CleanupHistoryTests.swift */,
+				F566952AE5E41B8FEFBF6567 /* ClipboardShortcutTests.swift */,
 				D4082DAA4FA6AB895A950B75 /* FileSizeExtensionTests.swift */,
 				BA5423E036DAF863410A5195 /* LeftoverCategoryTests.swift */,
 				684A1CD2D01FD81B5F3FE404 /* LeftoverConfidenceTests.swift */,
@@ -222,6 +237,8 @@
 			children = (
 				37AE07466706A7C808EC323B /* AppUsageAnalyzer.swift */,
 				FCB2DBFF69D3A828DD9F9206 /* BookmarkManager.swift */,
+				A07FD8C25A98262B3BBDC505 /* ClipboardHistoryManager.swift */,
+				B1CD92328071374F13250A42 /* ClipboardHotkeyManager.swift */,
 				4B47CE8D023D4A9110FC4BE9 /* DuplicateFinderService.swift */,
 				7E541C46CB31F7F2063085D7 /* LaunchAtLoginManager.swift */,
 				05564808428C3BE4C3A63C1B /* LocalizationManager.swift */,
@@ -239,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				6B673AF592C7A8A3240C2541 /* AppRowView.swift */,
+				297F225C17FAF56C1329CF4E /* ClipboardHistoryPanel.swift */,
 				21E0C9E0A739F48653D11063 /* DashboardView.swift */,
 				33BBD85202A600083F47B2BB /* DuplicateFinderView.swift */,
 				265154546E386ADEB7A2454A /* GlassBackground.swift */,
@@ -359,6 +377,11 @@
 				3E095D8CB6DE98F3014D791D /* AppUsageStats.swift in Sources */,
 				2AD24ED9C6A9687266D296BC /* AppViewModel.swift in Sources */,
 				04094FBF1FF37D1E552FFF2A /* BookmarkManager.swift in Sources */,
+				7E5BE22C158BDBD290506F54 /* ClipboardHistoryEntry.swift in Sources */,
+				7F1E63DEBDF36A7D59D2DDBC /* ClipboardHistoryManager.swift in Sources */,
+				866A9533F6B107DE959FAB29 /* ClipboardHistoryPanel.swift in Sources */,
+				235CA6FA13646FBF140499B1 /* ClipboardHotkeyManager.swift in Sources */,
+				E565247CBF1B03BF056C2D95 /* ClipboardShortcut.swift in Sources */,
 				4AAB03C3A445248F0A4EF305 /* DashboardView.swift in Sources */,
 				8F07EBAE8FC7548023536091 /* DetailView.swift in Sources */,
 				4340683B0DDDEF8793EE462D /* DiskSpaceStats.swift in Sources */,
@@ -400,6 +423,7 @@
 				0708B59A424F76E774A15A5B /* AppModelTests.swift in Sources */,
 				AF5642950273BC1D514589B7 /* AppSortOrderTests.swift in Sources */,
 				F9B3C7B9EC3C18DDBB1EE5CD /* CleanupHistoryTests.swift in Sources */,
+				AB0F94225C9FEFFEDF7E374C /* ClipboardShortcutTests.swift in Sources */,
 				5D3750BB99ACA0C7CD59C45B /* FileSizeExtensionTests.swift in Sources */,
 				3CBCE7B26E53939EFDA89C97 /* LeftoverCategoryTests.swift in Sources */,
 				B16BEA9130B877F1E2998E4A /* LeftoverConfidenceTests.swift in Sources */,
@@ -485,7 +509,7 @@
 				CODE_SIGN_ENTITLEMENTS = ApexUninstaller/ApexUninstaller.debug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = ApexUninstaller/Info.plist;
@@ -494,7 +518,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller;
 				PRODUCT_NAME = ApexUninstaller;
 				SDKROOT = macosx;
@@ -509,7 +533,7 @@
 				CODE_SIGN_ENTITLEMENTS = ApexUninstaller/ApexUninstaller.direct.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
@@ -519,9 +543,10 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller;
-				PRODUCT_NAME = ApexUninstaller;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller.direct;
+				PRODUCT_MODULE_NAME = ApexUninstaller;
+				PRODUCT_NAME = "ApexUninstaller Direct";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DIRECT_DISTRIBUTION";
 				SWIFT_VERSION = 5.9;
@@ -588,6 +613,7 @@
 		51B3CDA9873A5170A94E5E10 /* DirectRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APEX_APP_PRODUCT_NAME = "ApexUninstaller Direct";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -602,7 +628,7 @@
 				PRODUCT_NAME = ApexUninstallerTests;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.9;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApexUninstaller.app/Contents/MacOS/ApexUninstaller";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/$(APEX_APP_PRODUCT_NAME).app/Contents/MacOS/$(APEX_APP_PRODUCT_NAME)";
 			};
 			name = DirectRelease;
 		};
@@ -673,6 +699,7 @@
 		6460AE2CB2DE5FE2AFBDF147 /* DirectDebug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APEX_APP_PRODUCT_NAME = "ApexUninstaller Direct";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -687,13 +714,14 @@
 				PRODUCT_NAME = ApexUninstallerTests;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.9;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApexUninstaller.app/Contents/MacOS/ApexUninstaller";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/$(APEX_APP_PRODUCT_NAME).app/Contents/MacOS/$(APEX_APP_PRODUCT_NAME)";
 			};
 			name = DirectDebug;
 		};
 		65031F9E37C2DB867150E26E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APEX_APP_PRODUCT_NAME = ApexUninstaller;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -708,7 +736,7 @@
 				PRODUCT_NAME = ApexUninstallerTests;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.9;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApexUninstaller.app/Contents/MacOS/ApexUninstaller";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/$(APEX_APP_PRODUCT_NAME).app/Contents/MacOS/$(APEX_APP_PRODUCT_NAME)";
 			};
 			name = Release;
 		};
@@ -719,7 +747,7 @@
 				CODE_SIGN_ENTITLEMENTS = ApexUninstaller/ApexUninstaller.direct.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = 84253AGHK5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -730,9 +758,10 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller;
-				PRODUCT_NAME = ApexUninstaller;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller.direct;
+				PRODUCT_MODULE_NAME = ApexUninstaller;
+				PRODUCT_NAME = "ApexUninstaller Direct";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DIRECT_DISTRIBUTION";
 				SWIFT_VERSION = 5.9;
@@ -810,7 +839,7 @@
 				CODE_SIGN_ENTITLEMENTS = ApexUninstaller/ApexUninstaller.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = 84253AGHK5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
@@ -820,7 +849,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.haidv.apexuninstaller;
 				PRODUCT_NAME = ApexUninstaller;
 				SDKROOT = macosx;
@@ -831,6 +860,7 @@
 		EF36C4CB7A82CC15FB6BB4C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APEX_APP_PRODUCT_NAME = ApexUninstaller;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -845,7 +875,7 @@
 				PRODUCT_NAME = ApexUninstallerTests;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.9;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApexUninstaller.app/Contents/MacOS/ApexUninstaller";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/$(APEX_APP_PRODUCT_NAME).app/Contents/MacOS/$(APEX_APP_PRODUCT_NAME)";
 			};
 			name = Debug;
 		};

@@ -16,10 +16,18 @@ if [[ -z "${version}" ]]; then
     exit 2
 fi
 
+product_name="$(xcodebuild -project "${project}" -scheme "${scheme}" -configuration DirectRelease -showBuildSettings | awk -F ' = ' '/PRODUCT_NAME =/ { print $2; exit }')"
+if [[ -z "${product_name}" ]]; then
+    print -u2 "Could not determine PRODUCT_NAME."
+    exit 2
+fi
+
+artifact_stem="${product_name// /-}"
+
 release_root="${project_root}/build/direct/${version}"
-archive_path="${release_root}/ApexUninstaller.xcarchive"
+archive_path="${release_root}/${artifact_stem}.xcarchive"
 export_path="${release_root}/Export"
-artifact_path="${release_root}/ApexUninstaller-${version}.zip"
+artifact_path="${release_root}/${artifact_stem}-${version}.zip"
 checksum_path="${artifact_path}.sha256"
 
 if [[ -e "${release_root}" ]]; then
@@ -46,10 +54,10 @@ if [[ -n "${notary_profile}" ]]; then
         -exportPath "${export_path}" \
         -exportOptionsPlist "${export_options}"
 
-    app_path="${export_path}/ApexUninstaller.app"
+    app_path="${export_path}/${product_name}.app"
     codesign --verify --deep --strict --verbose=2 "${app_path}"
 
-    submission_zip="${temporary_dir}/ApexUninstaller-${version}-submission.zip"
+    submission_zip="${temporary_dir}/${artifact_stem}-${version}-submission.zip"
     ditto -c -k --sequesterRsrc --keepParent "${app_path}" "${submission_zip}"
     xcrun notarytool submit "${submission_zip}" --keychain-profile "${notary_profile}" --wait
     xcrun stapler staple "${app_path}"
@@ -61,7 +69,7 @@ else
         -exportOptionsPlist "${notarize_options}" \
         -allowProvisioningUpdates
 
-    app_path="${export_path}/ApexUninstaller.app"
+    app_path="${export_path}/${product_name}.app"
     exported=0
     for attempt in {1..20}; do
         if xcodebuild -exportNotarizedApp -archivePath "${archive_path}" -exportPath "${export_path}"; then
@@ -102,6 +110,6 @@ if [[ "${PUBLISH_GITHUB:-0}" == "1" ]]; then
         "${artifact_path}" \
         "${checksum_path}" \
         --repo "dangvanhai13091989/ApexUninstaller" \
-        --title "ApexUninstaller ${version}" \
+        --title "${product_name} ${version}" \
         --generate-notes
 fi

@@ -193,28 +193,45 @@ struct MainView: View {
                     .font(.caption).foregroundStyle(.secondary)
             }.onTapGesture { if !bookmarkManager.hasLibraryAccess { bookmarkManager.showAccessOnboarding = true } }
         }
-        ToolbarItemGroup(placement: .automatic) {
-            Button { viewModel.showSystemJunk = true } label: {
-                Label(localization.localized("systemJunk.title"), systemImage: "sparkles")
-            }
-            .help(localization.localized("systemJunk.title"))
+        ToolbarItem(placement: .automatic) {
+            Menu {
+                Button {
+                    ClipboardHistoryPanelController.shared.show()
+                } label: {
+                    Label(localization.localized("clipboard.title"), systemImage: "clipboard")
+                }
 
-            Button { showDuplicateFinder = true } label: {
-                Label(localization.localized("duplicate.title"), systemImage: "doc.on.doc")
-            }
-            .help(localization.localized("duplicate.title"))
+                Divider()
 
-            Button { showDashboard = true } label: {
-                Label(localization.localized("toolbar.dashboard"), systemImage: "chart.pie")
-            }
-            .disabled(viewModel.apps.isEmpty)
-            .help(localization.localized("toolbar.dashboard.help"))
+                Button {
+                    viewModel.showSystemJunk = true
+                } label: {
+                    Label(localization.localized("systemJunk.title"), systemImage: "sparkles")
+                }
 
-            Button { showUsageAnalysis = true } label: {
-                Label(localization.localized("toolbar.usage"), systemImage: "clock.badge.questionmark")
+                Button {
+                    showDuplicateFinder = true
+                } label: {
+                    Label(localization.localized("duplicate.title"), systemImage: "doc.on.doc")
+                }
+
+                Button {
+                    showDashboard = true
+                } label: {
+                    Label(localization.localized("toolbar.dashboard"), systemImage: "chart.pie")
+                }
+                .disabled(viewModel.apps.isEmpty)
+
+                Button {
+                    showUsageAnalysis = true
+                } label: {
+                    Label(localization.localized("toolbar.usage"), systemImage: "clock.badge.questionmark")
+                }
+                .disabled(viewModel.apps.isEmpty)
+            } label: {
+                Label(localization.localized("utilities.title"), systemImage: "wrench.and.screwdriver")
             }
-            .disabled(viewModel.apps.isEmpty)
-            .help(localization.localized("toolbar.usage.help"))
+            .help(localization.localized("utilities.help"))
         }
         ToolbarItem(placement: .automatic) {
             Button { showSettings = true } label: {

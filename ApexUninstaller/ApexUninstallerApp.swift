@@ -85,13 +85,13 @@ final class MainWindowCoordinator {
             if window.isMiniaturized {
                 window.deminiaturize(nil)
             }
-            NSApp.activate(ignoringOtherApps: true)
+            NSApp.activate()
             window.makeKeyAndOrderFront(nil)
             return
         }
 
         openWindowAction?(id: "main")
-        NSApp.activate(ignoringOtherApps: true)
+        NSApp.activate()
     }
 }
 
@@ -100,9 +100,20 @@ final class MainWindowCoordinator {
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApp.setActivationPolicy(.regular)
+
+        // XCTest launches the full app as its host process. Clipboard History
+        // reads an encryption key from Keychain during setup, which can block
+        // a headless test host before XCTest gets a chance to start. The
+        // shortcut and monitor are UI utilities, not prerequisites for unit
+        // tests, so leave them inactive in that dedicated environment.
+        guard ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] == nil else {
+            return
+        }
+
         UNUserNotificationCenter.current().delegate = NotificationDelegate.shared
         SmartNotificationService.shared.prepare()
         ScheduledScanManager.shared.checkAndNotifyIfNeeded()
+        ClipboardHotkeyManager.shared.register(shortcut: ClipboardHistoryManager.shared.shortcut)
     }
     
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {

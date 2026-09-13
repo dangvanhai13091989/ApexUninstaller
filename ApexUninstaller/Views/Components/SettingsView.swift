@@ -41,6 +41,9 @@ struct SettingsView: View {
 
                     // Menu Bar Section
                     menuBarSection
+
+                    // Clipboard History Section
+                    clipboardHistorySection
                     
                     // Smart Notifications Section
                     smartNotificationsSection
@@ -136,6 +139,77 @@ struct SettingsView: View {
                     }
                 }
                 .toggleStyle(.switch)
+            }
+            .padding()
+            .background(Color(nsColor: .controlBackgroundColor))
+            .clipShape(RoundedRectangle(cornerRadius: 8))
+        }
+    }
+
+    // MARK: - Clipboard History
+
+    private var clipboardHistorySection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text(localization.localized("clipboard.title"))
+                .font(.headline)
+
+            VStack(alignment: .leading, spacing: 16) {
+                Toggle(isOn: Binding(
+                    get: { ClipboardHistoryManager.shared.isEnabled },
+                    set: { ClipboardHistoryManager.shared.isEnabled = $0 }
+                )) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(localization.localized("clipboard.enable"))
+                            .font(.subheadline)
+                        Text(localization.localized("clipboard.description"))
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+                .toggleStyle(.switch)
+
+                Divider()
+
+                HStack {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Label(localization.localized("clipboard.shortcut.label"), systemImage: "command")
+                            .font(.subheadline)
+                        Text(localization.localized("clipboard.shortcut.help"))
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                    Picker(
+                        localization.localized("clipboard.shortcut.label"),
+                        selection: Binding(
+                            get: { ClipboardHistoryManager.shared.shortcut },
+                            set: { ClipboardHistoryManager.shared.shortcut = $0 }
+                        )
+                    ) {
+                        ForEach(ClipboardShortcut.allCases) { shortcut in
+                            Text(shortcut.displayString).tag(shortcut)
+                        }
+                    }
+                    .labelsHidden()
+                    .frame(width: 104)
+                }
+
+                if ClipboardHotkeyManager.shared.failedShortcut != nil {
+                    Text(localization.localized("clipboard.shortcut.unavailable"))
+                        .font(.caption)
+                        .foregroundStyle(.orange)
+                }
+
+                HStack {
+                    Label(ClipboardHistoryManager.shared.shortcut.displayString, systemImage: "keyboard")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                    Spacer()
+                    Button(localization.localized("clipboard.clear"), role: .destructive) {
+                        ClipboardHistoryManager.shared.clearHistory()
+                    }
+                    .disabled(ClipboardHistoryManager.shared.entries.isEmpty)
+                }
             }
             .padding()
             .background(Color(nsColor: .controlBackgroundColor))
